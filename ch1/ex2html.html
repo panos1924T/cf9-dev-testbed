@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>excercise 2 pdf html</title>
+</head>
+<body>
+    <h1>Φόρμα πληρωμής</h1>
+    <p>Τα υποχρεωτικά πεδία ακολουθούνται από <abbr title="required field">*</abbr></p>
+    <h2>Προσωπικά στοιχεία</h2>
+    <div>
+        <legend>Title:</legend>
+        <input type="radio" name="title" value="Male" id="Male">
+        <label for="title">Mr. </label><br>
+        <input type="radio" name="title" value="Female" id="Female">
+        <label for="title">Mrs. </label><br>
+        <input type="radio" name="title" value="Doctor" id="Doctor">
+        <label for="title">Dr. </label>
+    </div>
+    <div>
+        <label for="fullname"><abbr title="required field">*</abbr>Name: </label>
+        <input type="text" name="fullname" id="fullname" size="50">
+    </div>
+    <div>
+        <label for="email"><abbr title="required field">*</abbr>E-mail: </label>
+        <input type="email" name="email" id="email">
+    </div>
+    <div>
+        <label for="password"><abbr title="required field">*</abbr>Password: </label>
+        <input type="password" name="password" id="password" size="30">
+    </div>
+    <h2>Πληροφορίες πληρωμής</h2>
+    <div>
+        <label for="card-type">Card type: </label>
+        <select name="card-type" id="card-type">
+            <option value="1">Visa</option>
+            <option value="2">Mastercard</option>
+            <option value="3">Paypal</option>
+        </select>
+    </div>
+    <div>
+        <label for="cardnumber"><abbr title="required field">*</abbr>Card-number: </label>
+        <input type="cardnumber" name="cardnumber" id="cardnumber" placeholder="1234-5678-1234-5678">
+    </div>
+    <div>
+        <label for="expdate"><abbr title="required field">*</abbr>Expiration Date: </label>
+        <input type="date" name="date" id="date" placeholder="MM-YY">
+    </div>
+    <div>
+        <input type="submit" value="Προχωρήστε στην πληρωμή">
+    </div>
+</body>
+</html>
